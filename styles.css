@@ -23,17 +23,17 @@ body{
 section {
   background-color: var(--grayish-blue);
   width: 40rem;
-  /* margin: 0 auto; */
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   position: relative;
 }
+
+.random-id,
 .header {
   color: var(--neon-green);
   font-size: 3rem;
   text-align: center;
 }
-
 .random-text {
   font-size: 2.5rem;
   text-align: center;
@@ -55,6 +55,7 @@ section {
 .dice-image {
   display: flex;
   justify-content: center;
+  cursor: pointer;
   background-color: var(--neon-green);
   height: 5rem;
   width: 5rem;
